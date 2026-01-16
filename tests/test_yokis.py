@@ -14,7 +14,7 @@ def test_yokis_signature(assert_signature_matches_quirk):
             "1": {
                 "profile_id": 0x0104,
                 "device_type": "0x0100",
-                "input_clusters": [
+                "in_clusters": [
                     "0x0000",
                     "0x0003",
                     "0x0004",
@@ -29,7 +29,7 @@ def test_yokis_signature(assert_signature_matches_quirk):
                     "0xfc06",
                     "0xfcf0"
                 ],
-                "output_clusters": [
+                "out_clusters": [
                     "0x0003",
                     "0x0006",
                     "0x0019",
@@ -41,10 +41,10 @@ def test_yokis_signature(assert_signature_matches_quirk):
             "242": {
                 "profile_id": 0xa1e0,
                 "device_type": "0x0066",
-                "input_clusters": [
+                "in_clusters": [
                     "0x0021"
                 ],
-                "output_clusters": [
+                "out_clusters": [
                     "0x0021"
                 ]
             }

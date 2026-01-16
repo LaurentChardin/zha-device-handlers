@@ -36,7 +36,7 @@ from zhaquirks.yokis import (
 class MTR(CustomDevice):
     """Yokis MTR devices."""
 
-    manufacturer_id_override = Manufacturer_ID
+    manufacturer_code = Manufacturer_ID
 
     signature = {
         MODELS_INFO: [(Manufacturer_Name, "MTR500E-UP")],
